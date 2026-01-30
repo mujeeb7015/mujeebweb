@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bloom Flower Shop</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fff7fb;
+    color: #333;
+}
+
+header {
+    background: #ff69b4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #ffe4f2;
+}
+
+.hero button {
+    padding: 12px 25px;
+    background: #ff69b4;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.flowers {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.flower-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about, .contact {
+    padding: 50px 20px;
+    text-align: center;
+    background: #fff0f6;
+}
+
+footer {
+    background: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Bloom Flower Shop</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Flowers</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Fresh Flowers Delivered Daily</h2>
+    <p>Beautiful bouquets for every occasion</p>
+    <button>Shop Now</button>
+</section>
+
+<section class="flowers">
+    <h2>Our Flowers</h2>
+
+    <div class="flower-grid">
+        <div class="card">
+            <img src="https://via.placeholder.com/200/ff69b4/ffffff?text=Roses">
+            <h3>Roses</h3>
+            <p>$15</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/200/f06292/ffffff?text=Tulips">
+            <h3>Tulips</h3>
+            <p>$12</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/200/ec407a/ffffff?text=Lilies">
+            <h3>Lilies</h3>
+            <p>$18</p>
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <h2>About Us</h2>
+    <p>We provide fresh flowers for weddings, birthdays, and special occasions.</p>
+</section>
+
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: bloom@flowershop.com</p>
+    <p>Phone: +123 456 789</p>
+</section>
+
+<footer>
+    <p>© 2026 Bloom Flower Shop</p>
+</footer>
+
+</body>
+</html>
